@@ -1,0 +1,25 @@
+{
+  "name": "boritokit",
+  "version": "0.0.0",
+  "description": "BoritoKit is a set of utilities to help you with your javascript/typescript projects",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "tsup": "tsup"
+  },
+  "keywords": [
+    "utility",
+    "typescript",
+    "javascript"
+  ],
+  "author": "DevPeriwal07",
+  "license": "MIT",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}
