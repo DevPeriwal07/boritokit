@@ -1,12 +1,13 @@
 {
   "name": "boritokit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "BoritoKit is a set of utilities to help you with your javascript/typescript projects",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "tsup": "tsup"
+    "tsup": "tsup",
+    "test": "vitest"
   },
   "keywords": [
     "utility",
